@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-votingapp-dev-234857-authRole",
+      "UnauthRoleArn": "arn:aws:iam::825886988133:role/amplify-votingapp-dev-234857-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::825886988133:role/amplify-votingapp-dev-234857-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-votingapp-dev-234857-deployment",
+      "UnauthRoleName": "amplify-votingapp-dev-234857-unauthRole",
+      "StackName": "amplify-votingapp-dev-234857",
+      "StackId": "arn:aws:cloudformation:us-east-1:825886988133:stack/amplify-votingapp-dev-234857/04651530-443d-11ec-b793-12021439338b",
+      "AmplifyAppId": "d39vva5u0dlzhc"
+    }
+  }
+}
