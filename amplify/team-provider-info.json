@@ -10,6 +10,14 @@
       "StackName": "amplify-votingapp-dev-234857",
       "StackId": "arn:aws:cloudformation:us-east-1:825886988133:stack/amplify-votingapp-dev-234857/04651530-443d-11ec-b793-12021439338b",
       "AmplifyAppId": "d39vva5u0dlzhc"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d39vva5u0dlzhc",
+          "type": "manual"
+        }
+      }
     }
   }
 }
