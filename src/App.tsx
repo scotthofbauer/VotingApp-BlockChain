@@ -6,7 +6,7 @@ import { mapListTodos } from './models/todo';
 import * as mutations from './graphql/mutations';
 import * as queries from './graphql/queries';
 import { GraphQLResult } from '@aws-amplify/api-graphql';
-
+import { withAuthenticator } from '@aws-amplify/ui-react'
 Amplify.configure(awsExports);
 
 const initialState = {name: '', description: '' }
@@ -71,4 +71,4 @@ const App = () => {
   )
 }
 
-export default App
+export default withAuthenticator(App)

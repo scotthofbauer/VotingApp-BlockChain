@@ -17,6 +17,9 @@
           "appId": "d39vva5u0dlzhc",
           "type": "manual"
         }
+      },
+      "auth": {
+        "votingapp08775c50": {}
       }
     }
   }
