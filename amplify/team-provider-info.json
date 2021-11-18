@@ -20,6 +20,16 @@
       },
       "auth": {
         "votingapp08775c50": {}
+      },
+      "function": {
+        "FireFlyLambda": {
+          "deploymentBucketName": "amplify-votingapp-dev-234857-deployment",
+          "s3Key": "amplify-builds/FireFlyLambda-4b716232677655367355-build.zip"
+        },
+        "FireFlyAPI": {
+          "deploymentBucketName": "amplify-votingapp-dev-234857-deployment",
+          "s3Key": "amplify-builds/FireFlyAPI-3934424b637853656b5a-build.zip"
+        }
       }
     }
   }

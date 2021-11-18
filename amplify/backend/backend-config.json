@@ -15,6 +15,20 @@
           "additionalAuthenticationProviders": []
         }
       }
+    },
+    "FireflyAPI": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "FireFlyAPI",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
   "hosting": {
@@ -48,6 +62,18 @@
           "EMAIL"
         ]
       }
+    }
+  },
+  "function": {
+    "FireFlyLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "FireFlyAPI": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   }
 }
