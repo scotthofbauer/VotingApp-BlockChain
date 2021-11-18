@@ -4,7 +4,7 @@ export type AmplifyDependentResourcesAttributes = {
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         },
-        "FireflyAPI": {
+        "FireFlyAPI": {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"
@@ -23,7 +23,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "function": {
-        "FireFlyAPI": {
+        "FireFlyLambda": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",

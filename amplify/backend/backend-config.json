@@ -16,13 +16,13 @@
         }
       }
     },
-    "FireflyAPI": {
+    "FireFlyAPI": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "FireFlyAPI",
+          "resourceName": "FireFlyLambda",
           "attributes": [
             "Name",
             "Arn"
@@ -66,11 +66,6 @@
   },
   "function": {
     "FireFlyLambda": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
-    "FireFlyAPI": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

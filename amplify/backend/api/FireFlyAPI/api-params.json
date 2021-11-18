@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/",
+      "lambdaFunction": "FireFlyLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/"
+    }
+  ],
+  "resourceName": "FireFlyAPI",
+  "apiName": "FireFlyAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "FireFlyLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-votingapp-dev-234857-authRole",
+    "unAuthRoleName": "amplify-votingapp-dev-234857-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "FireFlyLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
